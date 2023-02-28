@@ -1,6 +1,8 @@
 # slodns
 Slodns is a forwarding DNS server to simulate slow, jittery, or problematic DNS implementations. It is able to add a uniform or dynamic delay upon DNS datagrams, or drop them at a pre-defined rate. It is useful for validating DNS failure handling.
 
+I forked it to add Python 3 support. 
+
 ```
 $ dig speedtest.net @8.8.8.8 | grep "Query time"
 ;; Query time: 12 msec
